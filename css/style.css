@@ -1,0 +1,61 @@
+/*
+================================
+Udacity:	Front-end Nanodegree
+Project: 	P1: Portfolio Site
+================================
+
+Colours given in the mockup
+orange		F8981C
+lightGrey	BDBBBB
+darkGrey	747704
+
+*/
+* {
+   /*outline: 1px solid red !important;*/
+}
+
+*{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 100;
+}
+
+h1{ margin:0;}
+h3{ margin-top:5px;}
+
+hr {
+
+    border-style: solid;
+    border-width: 2px;
+    color: #BDBBBB;
+}
+a{
+	color:#BDBBBB;
+}
+#tinyLogo{
+	visibility: hidden;
+	height: 0px;
+	width: 0px;
+}
+@media (max-width: 360px) {
+	h1, h2, h3{text-align: center;}
+
+	#logo{
+		visibility: hidden;
+		height: 0px;
+		width: 0px;
+	}
+	#tinyLogo{
+		visibility: visible;
+		margin: 0 auto;
+		height: 50px;
+		width: 50px;
+	}
+	#hero{
+		height:250px;
+	}
+	.header{
+		margin-bottom: 0px;
+  		margin-top: 20px;
+	}
+
+ }
